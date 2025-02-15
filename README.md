@@ -14,3 +14,10 @@ We have train (8523) and test (5681) data set, train data set has both input and
 
 Train file: CSV containing the item outlet information with sales value.
 Test file: CSV containing item outlet combinations for which sales need to be forecasted
+
+Evaluation Metric
+Your model performance will be evaluated on the basis of your prediction of the sales for the test data (test.csv), which contains similar data-points as train except for the sales to be predicted. Your submission needs to be in the format as shown in sample submission.
+
+We at our end, have the actual sales for the test dataset, against which your predictions will be evaluated. We will use the Root Mean Square Error value to judge your response.
+I got the values of Final Model MAE: 718.7514054828829
+Final Model RMSE: 1024.6331811677733
